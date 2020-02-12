@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" ref="text/css" href="./css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <nav>
+    <div class="logo">
+      <h4 class="theNav"></h4>
+      <ul class="list">
+        <li>
+          <a href="container1">Home</a></li>
+        <li>
+          <a href="about">About</a>
+        </li>
+        <li>
+          <a href="projects">Projects</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--HEADER-->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container1">
+      <h1 class="display-4">Adam Clouse</h1>
+      <p class="lead">Junior Web Developer</p>
+    </div>
+  </div>
+  <!--PROJECTS-->
+
+  <section class="about">
+    <h1 class="aboutHeader" style="text-align: center">About</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-4 about-box1">
+          <p>
+            My main occupation for the last two years was in sales and customer service. I became one of our top
+            performers and I trained many of my peers to
+            become better versions of themselves in several training classes. That has helped me develop a lot of
+            fundemental social skills and I love speaking and working
+            with other people. Critical thinking skills are very important for the tech field and coding throws me
+            constant challenges every day;
+            this and help from my peers and superiors has really moved me to a much different way of thinking about
+            things and the world in general.
+          </p>
+        </div>
+        <div class="col-4 about-box2">
+          <p> <img id="image" src="../examplePortfolio/assets/8611.jpeg"></p>
+        </div>
+        <div class="col-4">
+          <p>
+            I am a life long seeker of success and finding my dreams. I finally found that with coding, as it has
+            brought me fullfillment
+            and joy. I have worked in a team environment extensively in which we all had a common goal and we succeeded
+            in doing so.
+          </p>
+        </div>
+
+
+
+  </section>
+  <section class="projects">
+    <h1 class="aboutHeader" style="text-align: center">Projects</h1>
+    <div class="container2">
+      <div class="box1">
+        <h2 id="container2-header"><a href="https://codepen.io/adam-clouse/pen/dyoYKXO">CSS Creature</a></h2>
+
+
+        <p></p>
+      </div>
+      <div class="box2">
+        <h2 id="container2-header"><a href="https://amclouse.github.io/Projects/">Static Layout</a></h2>
+        <p></p>
+
+      </div>
+      <div class="box3">
+        <h2 id="container2-header"><a href="https://ac-spacex-api-b9bce.firebaseapp.com">API project</a></h2>
+        <p></p>
+
+      </div>
+
+
+    </div>
+    <div class="container2-2">
+      <div class="box4">
+        <h2 id="container2-header"><a href="">NYT API</a></h2>
+        <p></p>
+
+      </div>
+      <div class="box5">
+        <h2 id="container2-header"><a href="">TBD</a></h2>
+        <p>text</p>
+
+      </div>
+      <div class="box6">
+        <h2 id="container2-header"><a href="">TBD</a></h2>
+        <p></p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--CONTACT-->
+  <section id="contact">
+    <div class="container3">
+      <br>
+      <br>
+      <h2 class="text-center text-uppercase">Contact Me</h2>
+      <div class="row">
+        <div class="col-12">
+          <form action="amclouse96@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-white">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER-->
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

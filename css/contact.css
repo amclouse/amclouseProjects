@@ -1,0 +1,17 @@
+#contact {
+    background-color: #15557d;
+    font-family: 'Montserrat', sans-serif;
+    src: url(../assets/3-assets/american_captain/American\ Captain.ttf)
+}
+
+.container3 {
+    width: 30%;
+    float: center;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.control-group {
+    float: center;
+    margin: auto;
+}

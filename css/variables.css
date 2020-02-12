@@ -1,0 +1,12 @@
+:root {
+    --brown: #6D6656;
+    --grey: #53565A;
+   --black: #272727;
+
+   --heading-font: 'texasTango';
+}
+
+@font-face{
+    font-family: texasTango;
+    src: url(../assets/3-assets/american_captain/American\ Captain.ttf)
+}

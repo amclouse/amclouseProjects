@@ -1,0 +1,18 @@
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    padding: 1px;
+    position: relative;
+    top:75px;
+}
+.about {
+    padding: 70px;
+    line-height: 30px;
+    background-color: whitesmoke;
+}
+.aboutHeader {
+    margin: 30px;
+}
